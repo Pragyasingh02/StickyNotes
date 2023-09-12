@@ -1,0 +1,58 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+
+ body{
+   background: #ef7adca8;
+   font-family: "Architects Daughter";
+   font-size: 25px;
+   
+ }
+
+ .main-conteainer{
+   width: 99%;
+   margin: auto;
+ }
+ .container1{
+   margin-left: 5%;
+ }
+ .container2{
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   margin-top:25px;
+   margin-left: 5%;
+ }
+ .container3{
+   display: none;
+   position: absolute;
+   top: 25%;
+   left: 40%;
+ }
+
+ textarea{
+   box-shadow: 5px 5px 15px 0px rgba(0,0,0,.75);
+   outline: none;
+   border: none;
+   width: 275px;
+   height: 275px;
+   padding: 40px 25px 25px 25px;
+
+
+ }
+
+ svg{
+   color: black;
+ }
+  #check-icon{
+   position: absolute;
+   right: 16%;
+   top:4%;
+
+  }
+  #x-icon{
+   position: absolute;
+   right: 6%;
+   top: 4%;
+  }
